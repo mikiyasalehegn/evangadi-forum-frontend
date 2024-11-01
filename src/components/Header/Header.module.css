@@ -130,7 +130,7 @@ header {
 @media screen and (min-width: 350px) {
   .header__container {
     display: flex;
-    width: 90%;
+    width: 80%;
   }
 }
 
