@@ -120,6 +120,7 @@
   width: 100px;
   border-radius: 5%;
   height: fit-content;
+  margin: 10px 0;
 }
 
 .update_box p {
@@ -152,6 +153,12 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 15px;
+    align-items: start;
+  }
+
+  .update_box {
+    margin: 10px 0;
+    display: inline-block;
   }
 
   .user__and__question {

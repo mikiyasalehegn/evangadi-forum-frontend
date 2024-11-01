@@ -33,7 +33,9 @@ function Header() {
               Log Out
             </div>
           ) : (
-            <Link to={"/login"} className={classes.join_btn}>Sign In</Link>
+            <Link to={"/login"} className={classes.join_btn}>
+              Sign In
+            </Link>
           )}
         </div>
         <HiOutlineMenu
@@ -56,7 +58,7 @@ function Header() {
           </div>
           {/* dropdown content start here */}
           <div className={classes.dropdown_content}>
-            <a href="#">Home</a>
+            <Link to={"/"}>Home</Link>
             <a href="#">How it works</a>
             {userExist ? (
               <div className={classes.log__out} onClick={handleLogout}>

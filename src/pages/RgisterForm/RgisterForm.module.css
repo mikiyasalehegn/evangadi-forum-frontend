@@ -64,3 +64,19 @@ label {
   margin-bottom: 15px;
   color: #666;
 }
+
+@media (max-width: 768px) {
+  .form__container {
+    width: 100%;
+    padding: 30px;
+  }
+  .input {
+    width: 100%;
+  }
+  .flname {
+    flex-direction: column !important;
+  }
+  form .flname input {
+    width: 100%;
+  }
+}

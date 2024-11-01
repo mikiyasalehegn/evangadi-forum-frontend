@@ -122,6 +122,7 @@
   width: 100px;
   border-radius: 5%;
   height: fit-content;
+  margin: 10px 0;
 }
 
 .update_box p {
