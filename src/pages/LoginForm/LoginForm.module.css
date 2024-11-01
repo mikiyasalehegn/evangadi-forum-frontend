@@ -67,7 +67,14 @@ button:hover {
 }
 
 @media (min-width: 768px) {
-  .login__form__container{
+  .login__form__container {
     width: 48.5%;
+  }
+}
+
+@media (max-width: 768px) {
+  .login__form__container {
+    width: 100%;
+    padding: 30px;
   }
 }
